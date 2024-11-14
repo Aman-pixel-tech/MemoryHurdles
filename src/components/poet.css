@@ -1,0 +1,150 @@
+*{
+    margin: 0px;padding: 0px;
+  
+}
+.main{
+    /* border: 2px solid black; */
+    height: 99.9vh;
+    width: 98.9vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(35, 49, 108);
+
+}
+.image9{ 
+    /* border: 2px solid black; */
+    height: 99.8vh;
+    width: 49.4vw;
+    background-color: rgb(35, 49, 108);
+}
+
+.video9{
+    height: 99.8vh;
+    width: 48.4vw;
+}
+.lines{ 
+    /* border: 2px solid rgb(134, 46, 46); */
+    height: 99.8vh;
+    width: 49.2vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+     background-color:  rgb(35, 49, 108);
+      
+}
+.lines p{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.sound{
+    height: 6vh;
+    width: 16vw;
+    /* border-radius: 100px; */
+    margin-top: 15px;
+    margin-left: 16.7vw;
+    /* border: 2px solid black; */
+}
+.twinkle{
+    height: 5vh;
+    width: 16vw;
+
+}
+.starimg{
+    height: 99.8vh;
+    width: 49vw;
+}
+
+
+#paraline{
+    font-size: 4rem;
+    color: white;
+    background-color: rgb(35, 49, 108);
+    
+}
+.long{
+
+    margin-top: 120px;
+}
+.long p{
+    color: white;
+    
+}
+
+
+@media only screen and (max-width:412px) {
+    .main{
+        /* border: 2px solid white; */
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(35, 49, 108);
+    
+    }
+    .image9{ 
+        /* border: 2px solid rgb(142, 63, 63); */
+        height: 30.8vh;
+        width: 99vw;
+        background-color: rgb(35, 49, 108);
+    }
+    
+    .video9{
+        height: 29vh;
+        width: 100vw;
+        margin-top: 1vh;
+        /* border: 2px solid white; */
+    }
+    .lines{ 
+        /* border: 2px solid rgb(134, 46, 46); */
+        height: 63.8vh;
+        width: 99vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+         background-color:  rgb(35, 49, 108);
+          
+    }
+    .lines p{
+        font-size: 1.3rem;
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+    }
+    
+    .sound{
+       
+        /* border-radius: 100px; */
+        margin-top: 15px;
+        margin-left: 7vw;
+        /* border: 2px solid black; */
+    }
+    .twinkle{
+        height: 5vh;
+        width: 86vw;
+    
+    }
+    .starimg{
+        height: 99.8vh;
+        width: 49vw;
+    }
+    
+    
+    #paraline{
+        font-size: 3.5rem;
+        color: white;
+        background-color: rgb(35, 49, 108);
+        
+    }
+    .long{
+    
+        margin-top: 50px;
+
+    }
+    .long p{
+        color: white;
+        
+    }
+    
+
+}

@@ -1,0 +1,192 @@
+
+.certificate-form8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  animation: fadeInUp 1s ease-in-out;
+}
+.certificate8 {
+  border: 12px solid black;
+  margin: 20px auto;
+  width: 60vw;
+  height: 85vh;
+  text-align: center;
+ 
+} 
+
+
+
+
+  .certificate8 {
+    border: 12px solid black;
+    margin: 20px auto;
+    width: 60vw;
+    height: 85vh;
+    text-align: center;
+   
+  } 
+ 
+  
+ 
+  .kaam{
+    margin-top: 315px;
+    font-size: 3rem;
+    font-family:    Verdana, sans-serif;
+    font-weight: lighter;
+    color: #30635a;
+  }
+  .c{
+    width: 60vw;
+    height: 85vh;
+    margin-top: -373.6px;
+    position: absolute;
+    margin-left: -460px;
+    z-index: -1;
+   
+  } 
+
+
+
+.lab{
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.inp{
+  height: 4vh;
+  margin: 0px 12px;
+}
+.ntb {
+  background-color: #a3c0ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 112px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ntb:hover {
+  background-color: #e7cdff;
+}
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+  
+@media only screen and (max-width:412px) {
+  
+.certificate-form8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+  .certificate8 {
+    /* border: 12px solid black; */
+    margin: 20px auto;
+    width: 90vw;
+    height: 40vh;
+    text-align: center;
+   
+  } 
+ 
+  
+ 
+  .kaam{
+    margin-top: 160px;
+    font-size: 1.2rem;
+    font-family:    Verdana, sans-serif;
+    font-weight: bold;
+    color: #30635a;
+  }
+  .c{
+    width: 90vw;
+    height: 40vh;
+    margin-top: -182.6px;
+    position: absolute;
+     margin-left: -185px;
+    z-index: -1;
+   
+  } 
+
+
+
+.lab{
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+.inp{
+  height: 4vh;
+  margin: 0px 2px;
+}
+.ntb {
+  background-color: #a3c0ff;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 2px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ntb:hover {
+  background-color: #e7cdff;
+}
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+}

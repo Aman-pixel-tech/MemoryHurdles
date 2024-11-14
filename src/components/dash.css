@@ -1,0 +1,248 @@
+.idcorner {
+    height: 99.2vh;
+    width: 99.8vw;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.corner {
+    width: 90vw;
+    height: 20vh;
+    text-align: center;
+    /* border: 2px solid green; */
+    line-height: 80px;
+}
+.corner h1{
+    font-size: 3rem;
+    color: rgb(180, 255, 180);
+}
+.corner p{
+    font-size: 2rem;
+    color: rgb(109, 109, 255);
+}
+
+
+
+.introduction-card {
+    height: 50vh;
+    width: 82vw;
+    /* border: 2px solid green; */
+    text-align: justify;
+    font-size: 3rem;
+    word-spacing: 60px;
+    display: flex;
+    flex-wrap: wrap;
+
+   
+
+}
+.introduction-card2 {
+    height: 50vh;
+    width: 55vw;
+    /* border: 2px solid green; */
+    text-align: justify;
+    font-size: 3rem;
+    word-spacing: 60px;
+    /* box-shadow: 2px 1px 2px 2px #888888; */
+   
+
+}
+
+.in{
+    height: 9vh;
+    width: 20vw;
+    font-size: 3rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    text-align: center;
+    color: rgb(180, 255, 180);
+    
+}
+
+.in2{
+    height: 9vh;
+    width: 9vw;
+    font-size: 3rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    text-align: center;
+    color: rgb(180, 255, 180);
+
+}
+.in3{
+    height: 9vh;
+    width: 15vw;
+    font-size: 3rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    text-align: center;
+    color: rgb(180, 255, 180);
+
+}
+
+.useme{
+    width: 50vw;
+    height: 8vh;
+    text-align: center;
+    /* border: 2px solid green; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(205, 205, 255);
+}
+
+.useme button{
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    width: 20vw;
+    height: 5vh;
+    background-color: rgb(109, 109, 255);
+    color: white;
+    font-weight: bolder;
+}
+.useme button:hover{
+    background-color: white;
+    color:  rgb(109, 109, 255);
+    cursor: pointer;
+}
+
+.co{
+    height: 50vh;
+    width: 20vw;
+    /* border: 2px solid black; */
+}
+
+@media only screen and (max-width:412px) {
+    .idcorner {
+        height: 99.2vh;
+        width: 99.8vw;
+        /* border: 2px solid green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      
+    }
+    
+    .corner {
+        width: 98vw;
+        height: 7vh;
+        /* border: 2px solid rgb(10, 88, 205); */
+        line-height: 50px;
+        background-color: rgb(176, 255, 176);
+    }
+    .corner h1{
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+    }
+    .corner p{
+        font-size: 1.1rem;
+        font-weight: bolder;
+        color: rgb(109, 109, 255);
+    }
+    
+    
+    .introduction-card {
+        height: 50vh;
+        width: 98vw;
+        /* border: 2px solid green; */
+        text-align: justify;
+        font-size: 1rem;
+        word-spacing: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    
+       
+    
+    }
+    .introduction-card2 {
+        height: 50vh;
+        width: 75vw;
+        /* border: 2px solid green; */
+        text-align: justify;
+        font-size: 1.3rem;
+        word-spacing: 5px;
+        /* box-shadow: 2px 1px 2px 2px #888888; */
+        line-height: 100px;
+       
+    
+    }
+    
+    .in{
+        height: 3vh;
+        width: 30vw;
+        font-size: 1.3rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: none;
+        text-align: center;
+        color: rgb(255, 0, 0);
+        /* border: 2px solid black; */
+        
+    }
+    
+    .in2{
+        height: 3vh;
+        width: 15vw;
+        font-size: 1.3rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: none;
+        text-align: center;
+        color: rgb(255, 0, 0);
+        /* border: 2px solid black; */
+        
+    }
+    .in3{
+        height: 3vh;
+        width: 25vw;
+        font-size: 1.3rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: none;
+        text-align: center;
+        color: rgb(255, 0, 0);
+                /* border: 2px solid black; */
+        
+    
+    }
+    
+    .useme{
+        width: 90vw;
+        height: 8vh;
+        text-align: center;
+        /* border: 2px solid green; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(205, 205, 255);
+    }
+    
+    .useme button{
+        border: none;
+        margin: 10px;
+        padding: 5px;
+        width: 40vw;
+        height: 5vh;
+        background-color: rgb(109, 109, 255);
+        color: white;
+        font-weight: bolder;
+    }
+    .useme button:hover{
+        background-color: white;
+        color:  rgb(109, 109, 255);
+        cursor: pointer;
+    }
+    
+    .co{
+        height: 40vh;
+        width: 20vw;
+        /* border: 2px solid black; */
+    }
+
+}

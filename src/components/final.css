@@ -1,0 +1,141 @@
+
+  
+ .a2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+  }
+  
+  .app5 {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+    max-width: 500px;
+   
+  }
+  
+  .quiz5 h2, .result5 h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .question5 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .options5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .option-button5 {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .option-button5:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .option-button5.selected5 {
+    background-color: #28a745;
+  }
+  
+  .navigation5 {
+    margin-top: 20px;
+  }
+  
+  .next-button5 {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .next-button5:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .timer5 {
+    font-size: 1em;
+    color: #ff4500;
+    margin-top: 20px;
+    animation: blink 1s step-end infinite;
+  }
+  
+  .generate-certificate5 {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px;
+  }
+  
+  .generate-certificate5:hover {
+    background-color: #cc3700;
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  
+
+  @media only screen and (max-width:412px) {
+    
+  
+ .a2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.app5 {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  width: 80vw;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+  max-width: 500px;
+ 
+}
+
+
+  }

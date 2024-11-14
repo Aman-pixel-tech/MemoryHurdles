@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b35F{
+    /* border: 2px solid green; */
+    height: 150vh;
+    width: 99vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(217, 255, 217);
+}
+
+.heading5F{
+    font-size: 5rem;
+    margin: 10px;
+    padding: 0px 50px;
+    height: 15vh;
+    color: white;
+    background-color: rgb(125, 247, 125);
+
+}
+
+.card5F{
+    /* border: 2px solid black; */
+    height: 50vh;
+    width: 99vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+.child5F{
+    /* border: 2px solid black; */
+    margin: 20px;
+    height: 50vh;
+    width: 18vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+
+.innerchild5F{
+    border: 2px solid rgb(187, 255, 187);
+    margin: 6px;
+    width: 16vw;
+    height: 20vh;
+}
+.para5F{
+    /* border: 2px solid black; */
+    margin: 4px;
+    padding: 4px;
+    font-size: 1rem;
+    overflow: hidden;
+}
+.btn5F{
+    border: none;
+    background-color: rgb(125, 247, 125);
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 12px;
+    
+}
+.btn5F:hover{
+    background-color: white;
+    color:  rgb(125, 247, 125);
+    border:2px solid  rgb(125, 247, 125)  ;
+    cursor: pointer;
+}
+.cardimage5F{
+    width: 15vw;
+    height: 20vh;
+}
+
+
+@media only screen and (max-width:412px) {
+    .b35F{
+        /* border: 2px solid rgb(59, 144, 59); */
+        height: 150vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(217, 255, 217);
+    }
+    
+    .heading5F{
+        font-size: 3rem;
+        padding: 0px 50px;
+        height: 7vh;
+        width: 100vw;
+        color: white;
+        background-color: rgb(125, 247, 125);
+    
+    }
+    
+    .card5F{
+        /* border: 2px solid rgb(138, 26, 218); */
+        height: 40vh;
+        width: 99vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-top: -200px;
+        
+    }
+    .med5cardF{
+        /* border: 2px solid rgb(102, 24, 24); */
+        height: 67vh;
+        width: 99vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-top: -200px;
+    }
+    .child5F{
+        /* border: 2px solid black; */
+        margin: 10px;
+        height: 30vh;
+        width: 38vw;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        
+       
+    }
+    .up{
+        display: none;
+    }
+    
+    .innerchild5F{
+        /* border: 2px solid rgb(187, 255, 187); */
+        margin: 6px;
+        width: 36vw;
+        height: 12vh;
+        /* border: 2px solid green; */
+    }
+    .para5F{
+        /* border: 2px solid black; */
+        margin: 4px;
+        padding: 4px;
+        font-size: 0.7rem;
+        overflow: hidden;
+    }
+    .btn5F{
+        border: none;
+        background-color: rgb(125, 247, 125);
+        color: white;
+        font-weight: bolder;
+        margin: 10px;
+        padding: 10px 30px;
+        border-radius: 12px;
+        
+    }
+    .btn5F:hover{
+        background-color: white;
+        color:  rgb(125, 247, 125);
+        border:2px solid  rgb(125, 247, 125)  ;
+        cursor: pointer;
+    }
+    .cardimage5F{
+        width: 35vw;
+        height: 10vh;
+    }
+
+}

@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b35{
+    /* border: 2px solid green; */
+    height: 150vh;
+    width: 99vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(217, 255, 217);
+}
+
+.heading5{
+    font-size: 5rem;
+    margin: 10px;
+    padding: 0px 50px;
+    height: 15vh;
+    color: white;
+    background-color: rgb(125, 247, 125);
+
+}
+
+.card5{
+    /* border: 2px solid black; */
+    height: 50vh;
+    width: 99vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+.child5{
+    /* border: 2px solid black; */
+    margin: 20px;
+    height: 50vh;
+    width: 18vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+
+.innerchild5{
+    border: 2px solid rgb(187, 255, 187);
+    margin: 6px;
+    width: 16vw;
+    height: 20vh;
+}
+.para5{
+    /* border: 2px solid black; */
+    margin: 4px;
+    padding: 4px;
+    font-size: 1rem;
+    overflow: hidden;
+}
+.btn5{
+    border: none;
+    background-color: rgb(125, 247, 125);
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 12px;
+    
+}
+.btn5:hover{
+    background-color: white;
+    color:  rgb(125, 247, 125);
+    border:2px solid  rgb(125, 247, 125)  ;
+    cursor: pointer;
+}
+.cardimage5{
+    width: 15vw;
+    height: 20vh;
+}
+
+
+@media only screen and (max-width:412px) {
+    .b35{
+        /* border: 2px solid rgb(59, 144, 59); */
+        height: 150vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(217, 255, 217);
+    }
+    
+    .heading5{
+        font-size: 3rem;
+        padding: 0px 50px;
+        height: 7vh;
+        width: 100vw;
+        color: white;
+        background-color: rgb(125, 247, 125);
+    
+    }
+    
+    .card5{
+        /* border: 2px solid rgb(138, 26, 218); */
+        height: 74vh;
+        width: 99vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-top: -100px;
+        
+    }
+    .med5card{
+        /* border: 2px solid rgb(102, 24, 24); */
+        height: 37vh;
+        width: 99vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-top: -140px;
+    }
+    .child5{
+        /* border: 2px solid black; */
+        margin: 10px;
+        height: 35vh;
+        width: 38vw;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        
+       
+    }
+    
+    
+    .innerchild5{
+        border: 2px solid rgb(187, 255, 187);
+        margin: 6px;
+        width: 36vw;
+        height: 12vh;
+        /* border: 2px solid green; */
+    }
+    .para5{
+        /* border: 2px solid black; */
+        margin: 4px;
+        padding: 4px;
+        font-size: 0.7rem;
+        overflow: hidden;
+    }
+    .btn5{
+        border: none;
+        background-color: rgb(125, 247, 125);
+        color: white;
+        font-weight: bolder;
+        margin: 10px;
+        padding: 10px 30px;
+        border-radius: 12px;
+        
+    }
+    .btn5:hover{
+        background-color: white;
+        color:  rgb(125, 247, 125);
+        border:2px solid  rgb(125, 247, 125)  ;
+        cursor: pointer;
+    }
+    .cardimage5{
+        width: 35vw;
+        height: 10vh;
+    }
+
+}

@@ -1,0 +1,159 @@
+/* General Styles */
+.container9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .phone9 {
+    border: 16px solid #000;
+    border-radius: 36px;
+    width: 375px;
+    height: 667px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: relative;
+  }
+  
+  .topBar9 {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 36px;
+  }
+  
+  .screen9 {
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+    text-align: center;
+  }
+  
+  .title9 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .buttonContainer9 {
+    margin-bottom: 20px;
+  }
+  
+  .button9 {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .calculator9 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .input9 {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  
+  .result9 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .funFact9 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .fact9 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .imageRecognition9 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .imag9 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .feedback9 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .networkStatus9 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .status9 {
+    color: #333;
+  }
+  
+  .currentTime9 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .time9 {
+    color: #333;
+  }
+  /* Add your existing styles here */
+
+.weather9 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input9 {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button9 {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.weatherInfo9 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Fade-in animation */
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

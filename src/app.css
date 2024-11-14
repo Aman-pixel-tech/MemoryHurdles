@@ -1,0 +1,14 @@
+::-webkit-scrollbar{
+    width: 14px;
+  }
+  ::-webkit-scrollbar-track{
+    background:#97a2ff;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #b1ffbd;
+  }
+
+  ::selection{
+    color: white;
+    background:  rgb(123, 219, 123);
+}

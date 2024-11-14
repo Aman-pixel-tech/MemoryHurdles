@@ -1,0 +1,156 @@
+*{
+    margin: 0px;padding: 0px;
+  
+}
+.main4{
+    /* border: 2px solid black; */
+    height: 99.9vh;
+    width: 98.9vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  rgb(103, 52, 255)
+
+}
+.image94{ 
+    /* border: 2px solid black; */
+    height: 99.8vh;
+    width: 49.4vw;
+    background-color: rgb(69, 165, 255)
+}
+
+.video94{
+    height: 99.8vh;
+    width: 48.4vw;
+}
+.lines4{ 
+    /* border: 2px solid rgb(134, 46, 46); */
+    height: 99.8vh;
+    width: 49.2vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+     background-color:   rgb(103, 52, 255);
+      
+}
+.lines4 p{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.sound4{
+    height: 6vh;
+    width: 16vw;
+    /* border-radius: 100px; */
+    margin-top: 15px;
+    margin-left: 16.7vw;
+    /* border: 2px solid black; */
+}
+.twinkle4{
+    height: 5vh;
+    width: 16vw;
+
+}
+.starimg4{
+    height: 99.8vh;
+    width: 49vw;
+}
+
+
+#paraline4{
+    font-size: 4rem;
+    color: white;
+    background-color:  rgb(103, 52, 255);
+    
+}
+.long4{
+
+    margin-top: 10px;
+}
+.long4 p{
+    color: white;
+    /* overflow-y: scroll; */
+    
+    
+}
+@media only screen and (max-width:412px) {
+    .main4 {
+        border: 2px solid black;
+        height: 120vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        background-color:  rgb(103, 52, 255)
+
+    }
+
+    .image94 {
+        /* border: 2px solid black; */
+        height: 30.8vh;
+        width: 100vw;
+        background-color: rgb(69, 165, 255)
+    }
+
+    .video94 {
+        height: 31vh;
+        width: 100vw;
+    }
+
+    .lines4 {
+        /* border: 2px solid rgb(91, 9, 255); */
+        height: 80.8vh;
+        width: 100vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color:  rgb(103, 52, 255)
+
+    }
+
+    .lines4 p {
+        font-size: 1.2rem;
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+    }
+
+
+    .sound4 {
+        height: 6vh;
+        width: 76vw;
+        /* border-radius: 100px; */
+        margin-top: 15px;
+        margin-left: 12.7vw;
+        /* border: 2px solid rgb(209, 207, 207); */
+    }
+
+    .twinkle4 {
+        height: 5vh;
+        width: 76vw;
+        
+
+    }
+
+  
+
+
+    #paraline4 {
+        font-size: 3.5rem;
+        color: white;
+        background-color:  rgb(103, 52, 255)
+
+    }
+
+    .long4 {
+
+        margin-top: 10px;
+    }
+
+    .long4 p {
+        color: white;
+       
+
+
+    }
+
+}
+
