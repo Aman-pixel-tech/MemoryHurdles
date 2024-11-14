@@ -161,7 +161,7 @@ const App = () => {
         <div className="result5">
           <h2>You scored {score} out of {questions.length}</h2>
           {score === questions.length ? (
-            <a href='./cert'><button className="generate-certificate5">Generate Certificate</button></a>
+            <a href='#/cert'><button className="generate-certificate5">Generate Certificate</button></a>
           ) : (
             <button onClick={handleRetry} className="next-button5">Retry</button>
           )}
