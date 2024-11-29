@@ -50,58 +50,9 @@
   text-decoration: dashed;
 }
 
-.bu {
-  /* border: 2px solid black; */
-  width: 20vw;
-  display: flex;
-  flex-wrap: wrap;
 
-}
 
-.log {
-  /* border: 2px solid rgb(222, 34, 34); */
-  list-style: none;
-  display: flex;
-  margin-top: 24px;
 
-}
-
-.g1 {
-
-  /* border: 2px solid black; */
-  color: white;
-}
-
-.navl {
-  list-style: none;
-  padding: 10px;
-  margin: 15px;
-  border-radius: 10px;
-  background-color: rgb(110, 234, 133);
-  color: white;
-  border: none;
-  font-weight: bolder;
-
-}
-
-.navl:hover {
-  background-color: rgb(166, 247, 179);
-  color: white;
-  cursor: pointer;
-  text-decoration: dashed;
-}
-
-.navl2 {
-  margin-left: 70%;
-  list-style: none;
-  padding: 10px;
-  margin: 15px;
-  border-radius: 10px;
-  background-color: rgb(110, 234, 133);
-  color: white;
-  border: none;
-  font-weight: bolder;
-}
 
 
 
@@ -159,66 +110,5 @@
     
   }
 
-  .bu {
-    /* border: 2px solid black; */
-    width: 45vw;
-    height: 4vh;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -55px;
-
-  }
-
-  .log {
-    /* border: 2px solid rgb(222, 34, 34); */
-    list-style: none;
-    display: flex;
-    margin-top: -10px;
-
-  }
-
-  .g1 {
-
-    margin-top: 14px;
-    color: white;
-  }
-
-  .navl {
-    list-style: none;
-    width: 20vh;
-    margin: 10px;
-    height: 3vh;
-    padding: 0px 30px;
-    margin-top: -25px;
-    margin-left: 100%;
-    border-radius: 10px;
-    background-color: rgb(110, 234, 133);
-    color: white;
-    border: none;
-    font-weight: bolder;
-    
-
-  }
-
-  .navl:hover {
-    background-color: rgb(166, 247, 179);
-    color: white;
-    cursor: pointer;
-    text-decoration: dashed;
-  }
-
-  .navl2 {
-    list-style: none;
-    width: 20vh;
-    margin: 10px;
-    height: 3vh;
-    padding: 0px 30px;
-    margin-top: 2px;
-    border-radius: 5px;
-    background-color: rgb(110, 234, 133);
-    color: white;
-    border: none;
-    font-weight: bolder;
-    margin-left: 100%;
-  }
+  
 }

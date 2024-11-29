@@ -2,7 +2,6 @@ import React from 'react'
 import './ser.css'
 import "animate.css/animate.compat.css"
 import ScrollAnimation from 'react-animate-on-scroll';
-import { useAuth0 } from '@auth0/auth0-react';
 
 import companyLogo9 from './image/img9.png'
 import companyLogo10 from './image/m1.png'
@@ -13,7 +12,6 @@ import companyLogo14 from './image/img14.png'
 
 
 function service() {
-    const { loginWithRedirect, logout, isAuthenticated } = useAuth0();
 
     return (
         <div>
@@ -30,9 +28,7 @@ function service() {
                             </div>
                             <p className="para">Let's explore the essential components of teaching the alphabet (ABCs) to kindergarten kids. Alphabet knowledge is a foundational skill that lays the groundwork for future reading success.</p>
 
-                            {/* <div onClick={() => { isAuthenticated ? <a href="./ABC" className='link1'></a> : loginWithRedirect(); }} className='link14'>
-{isAuthenticated ? <a href="./ABC" className='link1'> <button className="btn"> Let'sGo  </button></a> : <a href="./ABC" className='link1'> <button className="btn"> Let'sGo  </button></a>}
-    </div> */}
+                          
                             <a href="#/ABC" className='link1'> <button className="btn btn6"> Let'sGo  </button></a>
                         </div>
                     </ScrollAnimation>
@@ -43,10 +39,7 @@ function service() {
                                 <img src={companyLogo10} alt="" className='cardimage' />
                             </div>
                             <p className="para">Let's explore the essential components of teaching poetry to kindergarten kids.   By breaking down the elements of poems, we  appreciate the beauty of language, rhythm, and imagination</p>
-                            {/* <div onClick={() => { isAuthenticated ? <a href="./ABC" className='link1'></a> : loginWithRedirect(); }} className='link14'>
-                                {isAuthenticated ? <a href="./poem1" className='link1'> <button className="btn"> Let'sGo  </button></a> : <a href="./ABC" className='link1'> <button className="btn"> Let'sGo  </button></a>}
-                            </div> */}
-
+                          
                             <a href="#/poem1" className='link1'> <button className="btn btn7"> Let'sGo  </button></a>
                         </div>
                     </ScrollAnimation>
@@ -58,9 +51,7 @@ function service() {
                                 <img src={companyLogo11} alt="" className='cardimage' />
                             </div>
                             <p className="para">Let's explore the essential components of fostering creativity in kindergarten kids and how quizzes can be a fun and engaging way to enhance their learning experience.</p>
-                            {/* <div onClick={() => { isAuthenticated ? <a href="./ABC" className='link1'></a> : loginWithRedirect(); }} className='link14'>
-                                {isAuthenticated ? <a href="./fun" className='link1'> <button className="btn"> Let'sGo  </button></a> : <a href="./ABC" className='link1'> <button className="btn"> Let'sGo  </button></a>}
-                            </div> */}
+                          
                             <a href="#/fun" className='link1'> <button className="btn btn8"> Let'sGo  </button></a>
 
                         </div>

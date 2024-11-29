@@ -2,7 +2,6 @@ import React from 'react'
 import './nav.css'
 import Body from './Body.jsx'
 import Service from './service.jsx'
-import { useAuth0 } from "@auth0/auth0-react";
 import { Link } from 'react-scroll'
 
 
@@ -10,7 +9,6 @@ function Navbar() {
   const handleSetActive = (to) => { console.log(to); };
  
 
-  const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
 
 
   return (
@@ -96,17 +94,7 @@ function Navbar() {
        
        
         </ul>
-        <div className="bu">
-
-          <li className='log'> {isAuthenticated && <p className='g1'> {user.name} </p>}</li>
-          {isAuthenticated ? (<button className='navl' onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
-            LogOut
-          </button>) : (
-
-            <button className='navl2' onClick={() => loginWithRedirect()}>LogIn</button>
-          )}
-
-        </div>
+       
 
       </div>
 
